@@ -1,6 +1,3 @@
-Here's a cleaner, more human version:
-
----
 
 # Go Redis Rate Limiter
 
