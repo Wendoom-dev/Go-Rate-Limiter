@@ -8,7 +8,7 @@ import (
 
 func checkHandler(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(http.StatusOK)
-	fmt.Fprintln(w, "This is working")
+	fmt.Fprintln(w, "This is written in golang")
 }
 
 func main() {
