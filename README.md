@@ -1,16 +1,7 @@
-Here's a cleaner, more human version:
-
----
 
 # Go Redis Rate Limiter
 
 A rate limiting service built in Go that uses the Token Bucket algorithm to protect upstream APIs from being throttled. Originally built to solve real throttling issues in an LLM proxy — it enforces per-API-key limits using atomic Redis operations so nothing slips through under concurrent load.
-
----
-
-## Why I built this
-
-I kept running into throttling issues with LLM providers in another project, so I pulled the rate limiting logic out into its own service. It's a focused infrastructure component — not a product, not an auth system. Just rate limiting, done properly.
 
 ---
 
